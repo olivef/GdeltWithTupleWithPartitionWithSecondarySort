@@ -91,39 +91,5 @@ public class Gdelt {
 	    System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 
-    public static class OutTuple implements Writable {
-	    private double sum;
-	    private double total;
-
-	    public double getSum() {
-		    return sum;
-	    }
-
-	    public void setSum(double s) {
-		    this.sum = s;
-	    }
-
-	    public double getTotal() {
-		    return total;
-	    }
-
-	    public void setTotal(double t) {
-		    this.total = t;
-	    }
-
-	    @Override
-		    public void readFields(DataInput in) throws IOException {
-			    sum = in.readDouble();
-			    total = in.readDouble();
-		    }
-
-	    @Override
-		    public void write(DataOutput out) throws IOException {
-			    out.writeDouble(sum);
-			    out.writeDouble(total);
-		    }
-
-    }
-
 }
 
