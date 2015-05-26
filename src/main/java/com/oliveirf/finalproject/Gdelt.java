@@ -24,7 +24,6 @@ public class Gdelt {
         private Text countryCode = new Text();
         private double num_items;
         private Text date = new Text();
-        //private OutTuple outTuple = new OutTuple();
         
         private static Hashtable<String, Integer> myhash = new Hashtable<String, Integer>();
 
