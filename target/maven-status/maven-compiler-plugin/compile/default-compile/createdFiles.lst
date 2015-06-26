@@ -1,3 +1,7 @@
-com/oliveirf/finalproject/Gdelt$GdeltMapper.class
-com/oliveirf/finalproject/Gdelt$CalculateSUMReducer.class
-com/oliveirf/finalproject/Gdelt.class
+com/oliveirf/finalproject/GdeltWithTuple$KeyComparator.class
+com/oliveirf/finalproject/GdeltWithTuple$OutTuple.class
+com/oliveirf/finalproject/GdeltWithTuple$CountryCodePartitioner.class
+com/oliveirf/finalproject/GdeltWithTuple.class
+com/oliveirf/finalproject/GdeltWithTuple$CompositeKeyComparator.class
+com/oliveirf/finalproject/GdeltWithTuple$CustomReducer.class
+com/oliveirf/finalproject/GdeltWithTuple$GdeltMapper.class
